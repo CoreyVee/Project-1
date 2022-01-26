@@ -7,17 +7,8 @@
     .contactButton {
         display: none;
     }
-    .mobile-menu {
-	/* display: block;
-	margin-right: 20px;
-	margin-top: 10px;
-	text-align: right;
-	opacity: 1;
-	position: static;
-	float: right;
-} */
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 675px) {
     header{
         display:flex;
         justify-content: space-between;
@@ -31,8 +22,10 @@
         display: none;
     }
 }
-@media screen and (min-width: 768px) {
-    
+@media screen and (min-width: 675px) {
+    .DropDown {
+        display: none;
+    }
     #Drop_menu_icon {
         display:none;
     }
