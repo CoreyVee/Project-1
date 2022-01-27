@@ -23,7 +23,7 @@
     }
 }
 @media screen and (min-width: 675px) {
-    .DropDown {
+    .DropDownMenu {
         display: none;
     }
     #Drop_menu_icon {

@@ -1,26 +1,38 @@
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="format.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- JAVASCRIPT -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script src="main.js" charset="utf-8"></script>
-    
-  
+
+
 </head>
+
 <body>
     <header>
         <h1 class="logo">CV</h1>
         <nav>
-            
+
             <ul class="nav_links">
                 <li><a href="#welcome">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -30,11 +42,11 @@
             </ul>
         </nav>
         <div class="DropDownMenu">
-          <ul class="DropDown">
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-          </ul>
+            <ul class="DropDown">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+            </ul>
         </div>
         <!-- <div class="mobile_menu">
             <ul>
@@ -46,21 +58,112 @@
         <a class="contact" href="#"><button class="contactButton">Contact</button></a>
     </header>
     <div class="welcome">
-        <h2>Hi, I'm <a href="#aboutMe">Corey</a></h2>
+        <h2>Hi, I'm <a class="Corey " href="#aboutMe">Corey</a></h2>
         <h3>a software engineer in San Antonio, Texas</h3>
         <h3>I like to code</h3>
     </div>
     <div class="contact">
-        <h2>Let's <a href="https://www.linkedin.com/in/corey-villanueva-46a13b160/" target="_blank" rel="noopener">team</a> up</h2>
+        <h2>Let's <a class="Team" href="https://www.linkedin.com/in/corey-villanueva-46a13b160/" target="_blank"
+                rel="noopener">Team</a> up</h2>
     </div>
-    <div class="projects">
-
+    <div class="Projects">
+        <div id="myCarousel" class="carousel slide carousel-fade"
+        data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                style="background-image:url()">
+                    <div class="container">
+                        <h1>Project 1</h1>
+                        <p>The desert wind blew the tumbleweed in front of the car. Alex swerved to avoid the tumbleweed, but he turned the wheel a bit too strong and the car left the road and skidded onto the dirt median. He instantly slammed on the brakes and the car stopped in a cloud of dirt. When the dust cloud had settled and he could see around him again, he realized that he'd somehow crossed over into an entirely new dimension.</p>
+                            <a href="#" class="btn btn-lg btn-primary" id="Git">
+                                Git
+                            </a>
+                            <a href="#" class="btn btn-lg btn-primary" id="Site">
+                                Website
+                            </a>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                data-interval="80000">
+                    <div class="container">
+                        <h1>Project 2</h1>
+                        <p>All he wanted was a candy bar. It didn't seem like a difficult request to comprehend, but the clerk remained frozen and didn't seem to want to honor the request. It might have had something to do with the gun pointed at his face.</p>
+                        <a href="#" class="btn btn-lg btn-primary" id="Git">
+                            Git
+                        </a>
+                        <a href="#" class="btn btn-lg btn-primary" id="Site">
+                            Website
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                data-interval="80000">
+                    <div class="container">
+                        <h1>Project 3</h1>
+                        <p>The boxed moved. That was a problem. Peter had packed the box three hours before and there was nothing inside that should make it move. The question now was whether or not Peter was going to open it up and look inside to see why it had moved. The answer to that question was obvious. Peter dropped the package into the mailbox so he would never have to see it again..</p>
+                            <a href="#" class="btn btn-lg btn-primary" id="Git">
+                                Git
+                            </a>
+                            <a href="#" class="btn btn-lg btn-primary" id="Site">
+                                Website
+                            </a>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                data-interval="80000">
+                    <div class="container">
+                        <h1>Project 4</h1>
+                        <p>The box sat on the desk next to the computer. It had arrived earlier in the day and business had interrupted her opening it earlier. She didn't who had sent it and briefly wondered who it might have been. As she began to unwrap it, she had no idea that opening it would completely change her life.
+                            </p>
+                            <a href="#" class="btn btn-lg btn-primary" id="Git">
+                                Git
+                            </a>
+                            <a href="#" class="btn btn-lg btn-primary" id="Site">
+                                Website
+                            </a>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                data-interval="80000">
+                    <div class="container">
+                        <h1>Project 5</h1>
+                        <p>It was a simple green chair. There was nothing extraordinary about it or so it seemed. It was the type of chair one would pass without even noticing it was there, let alone what the actual color of it was. It was due to this common and unassuming appearance that few people actually stopped to sit in it and discover its magical powers.</p>
+                            <a href="#" class="btn btn-lg btn-primary" id="Git">
+                                Git
+                            </a>
+                            <a href="#" class="btn btn-lg btn-primary" id="Site">
+                                Website
+                            </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" role="button"
+            data-slide="prev">
+            <span class="sr-only">Previous</span>
+            <span class="carousel-control-prev-icon"
+            aria-hidden="true"></span>
+             </a>
+             <a href="#myCarousel" class="carousel-control-next" role="button"
+             data-slide="next">
+             <span class="sr-only">Previous</span>
+             <span class="carousel-control-next-icon"
+             aria-hidden="true"></span>
+              </a>
+        </div>
     </div>
     <div class="skills">
-
+        
     </div>
     <div class="aboutMe">
 
     </div>
 </body>
+
 </html>
