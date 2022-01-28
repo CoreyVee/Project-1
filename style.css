@@ -176,22 +176,24 @@ button:hover {
 #title {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 1fr 5fr 1fr;
-    border: 25px;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 50px;
 }
 .Title {
     grid-column: 2/12;
     grid-row: 1/2;
-    color: white;
+    margin-top: -50;
+    color: black;
     font-size: 3rem;
 }
 .Subtext {
-    grid-column: 2/12;
-    grid-row: 2/3;
+    text-align: center;
+    grid-column: 1/14;
+    grid-row: 1/4;
+    margin: auto 0;
     background-color: black;
     color: white;
     border-radius: 25px;
-    padding: 15px;
     font-size: 2rem;
 }
 .skills { 
@@ -211,4 +213,21 @@ button:hover {
 }
 .skillIcon:hover {
     transform: scale(1.5);
+}
+#ContactContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.nameInput {
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.emailInput {
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+.messageInput {
+    grid-column: 3/5;
+    grid-row: 3/4;
 }
