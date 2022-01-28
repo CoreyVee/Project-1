@@ -7,6 +7,13 @@
     .contactButton {
         display: none;
     }
+    .skill_icons {
+        display: flex;
+        justify-content:space-evenly;
+        flex: wrap;
+        padding: 50px;
+        background-color: rgba(50, 205, 50, .5);
+    }
 }
 @media screen and (max-width: 675px) {
     header{
@@ -21,6 +28,16 @@
     .contactButton {
         display: none;
     }
+    .skill_icons {
+        display: flex;
+        justify-content: space-around;
+        margin: 5;
+    }
+    .skillIcon {
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
 }
 @media screen and (min-width: 675px) {
     .DropDownMenu {

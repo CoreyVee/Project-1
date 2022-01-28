@@ -192,5 +192,23 @@ button:hover {
     color: white;
     border-radius: 25px;
     padding: 15px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+.skills { 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.skills h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.skill_icons {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding: 25px;
+    background-color: rgba(50, 205, 50, .5);
+}
+.skillIcon:hover {
+    transform: scale(1.5);
 }
