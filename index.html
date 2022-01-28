@@ -181,27 +181,30 @@
         </div>
     </div>
     <div class="contact">
-        <div class="container-fluid" id="ContactContainer"></div>
+        <div class="container" id="ContactContainer">
         <h1>Get in Touch</h1>
             <form id="ContactForm">
                 <!--  Name Input ---> 
-            <div class="nameInput">
+            <div id="nameInput">
                 <label class="form-label" for="emailAddress">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                <input type="text" class="form-control" id="name" placeholder="Your name" required>
             </div>
                 <!-- Email Input -->
-            <div class="emailInput">
+            <div  id="emailInput">
                 <label class="form-label" for="name">Email Address</label>
-                <input type="email" class="form-control" id="emailAddress" placeholder="example@gmail.com">
+                <input type="email" class="form-control" id="emailAddress" placeholder="Your email" required>
             </div>
                 <!-- Message input -->
-            <div class="messageInput"></div>
+            <div id="messageInput">
                 <label class="form-label" for="message">Message</label>
-                <textarea type="text" class="form-control" id="message" placeholder="Message" style="height: 7rem;"> </textarea>
+                <textarea type="text" class="form-control" id="message" placeholder="Your message" style="height: 10rem;"> </textarea>
             </div>
                 <button class="btn btn-primary btn-lg" id="FormSubmit">Submit</button>
-            </form>
+        </div>
     </div>
+
+                
+            </form>
 </body>
 
 </html>
