@@ -34,4 +34,7 @@
     #Drop_menu_icon {
         display:none;
     }
+    body{
+        font-size: 2rem;
+    }
 }

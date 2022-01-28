@@ -99,6 +99,7 @@ button:hover {
     text-align: center;
     justify-content: space-around;
     padding: 50px;
+    font-size: 20px;
 }
 .contact {
     text-align: center;
@@ -150,4 +151,46 @@ button:hover {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin right: 100px;
+}
+#title {
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    padding: 50px;
+    background:limegreen;
+    color:white;
+    font-size: 2rem;
+}
+.myStory {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    color: limegreen;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+#title {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 1fr 5fr 1fr;
+    border: 25px;
+}
+.Title {
+    grid-column: 2/12;
+    grid-row: 1/2;
+    color: white;
+    font-size: 3rem;
+}
+.Subtext {
+    grid-column: 2/12;
+    grid-row: 2/3;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 1.5rem;
 }
