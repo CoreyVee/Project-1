@@ -27,36 +27,29 @@
 
 
 </head>
+<header>
+    <h1 class="logo">CV</h1>
+    <nav class="topnav" id="Home">
 
+        <ul class="nav_links">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+            <i class="fa fa-bars" id="Drop_menu_icon"></i>
+        </ul>
+    </nav>
+    <div class="DropDownMenu">
+        <ul class="DropDown">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#aboutMe">About Me</a></li>
+        </ul>
+    </div>
+    <a class="contact" href="#contactMe"><button class="contactButton">Contact</button></a>
+</header>
 <body>
-    <header>
-        <h1 class="logo">CV</h1>
-        <nav>
-
-            <ul class="nav_links">
-                <li><a href="#welcome">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#aboutMe">About Me</a></li>
-                <i class="fa fa-bars" id="Drop_menu_icon"></i>
-            </ul>
-        </nav>
-        <div class="DropDownMenu">
-            <ul class="DropDown">
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#aboutMe">About Me</a></li>
-            </ul>
-        </div>
-        <!-- <div class="mobile_menu">
-            <ul>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>About Me</li>
-            </ul>
-        </div> -->
-        <a class="contact" href="#"><button class="contactButton">Contact</button></a>
-    </header>
+   
     <div class="welcome">
         <h2>Hi, I'm <a class="Corey " href="#aboutMe">Corey</a></h2>
         <h3>a software engineer in San Antonio, Texas</h3>
@@ -66,7 +59,7 @@
         <h2>Let's <a class="Team" href="https://www.linkedin.com/in/corey-villanueva-46a13b160/" target="_blank"
                 rel="noopener">Team</a> up</h2>
     </div>
-    <div class="Projects">
+    <div class="Projects" id="projects">
         <div id="myCarousel" class="carousel slide carousel-fade"
         data-ride="carousel">
         <ol class="carousel-indicators">
@@ -158,7 +151,7 @@
               </a>
         </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1>Dev Skills</h1>
         <div class="container-fluid 
         skill_icons">
@@ -173,14 +166,14 @@
     </div>  
     </div>
     <div class="aboutMe">
-        <div class="myStory">
+        <div class="myStory" id="aboutMe">
             <div class="container" id="title">
                 <h1 class ="Title">About Me</h1>
                 <p class ="Subtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus nullam eget felis eget nunc lobortis. Libero volutpat sed cras ornare arcu dui. Habitasse platea dictumst vestibulum rhoncus. Amet porttitor eget dolor morbi non arcu risus. Nec feugiat nisl pretium fusce id velit. In dictum non consectetur a erat nam at. Etiam erat velit scelerisque in. Rutrum tellus pellentesque eu tincidunt. Facilisi nullam vehicula ipsum a arcu. Enim lobortis scelerisque fermentum dui faucibus in.</p>
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contactMe">
         <div class="container" id="ContactContainer">
         <h1>Get in Touch</h1>
             <form id="ContactForm">
