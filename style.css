@@ -22,6 +22,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding:30px 10%;
+    font-size: 1.5rem;
 }
 .nav_links {
 list-style: none;
@@ -96,11 +97,16 @@ button:hover {
 .Team:hover {
     color: rgba(50, 205, 50, .8);
 }
+h2, h3 {
+    font-size: 2.5rem;
+}
 .welcome {
     text-align: center;
     justify-content: space-around;
     padding: 50px;
     font-size: 20px;
+    margin-top: 25px;
+    
 }
 .contact {
     text-align: center;
