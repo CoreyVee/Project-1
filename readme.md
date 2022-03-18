@@ -1,3 +1,7 @@
+Deployed Link
+===
+https://coreyvee.github.io/Project-1/
+
 Overview
 ===
 The purpose of this file is to demonstrate projects that highlight the coding skills that I've developed overtime and highlight projects that have business use cases for potential employers. This site will use grid, flexbox and other Javascript animations to make a visually dynamic and interesting webpage that gives visitors some insight to my background and coding knowledge.
